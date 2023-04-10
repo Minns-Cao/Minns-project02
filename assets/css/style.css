@@ -554,7 +554,8 @@ a {
 /* ================Blog================== */
 
 .blog {
-
+    background-color: #fffcf4;
+    padding: 96px 0px;
 }
 
 .blog .blog-top {
@@ -623,13 +624,13 @@ a {
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.86;
-    color: #5F5B53;
+    color: #5f5b53;
 }
 
 .blog-item .info .line {
     width: 160px;
     margin: 12px 0px;
-    border: 0.5px solid #E2DFDA;
+    border: 0.5px solid #e2dfda;
     border-radius: 0.5px;
 }
 
@@ -645,7 +646,7 @@ a {
     font-weight: 600;
     font-size: 1.4rem;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .blog-item .info .btn:hover {
@@ -664,7 +665,7 @@ a {
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    background-color: #5F5B53;
+    background-color: #5f5b53;
 }
 
 .blog .dots .actived {
