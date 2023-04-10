@@ -584,7 +584,7 @@ a {
 
 .blog .blog-list {
     display: flex;
-    gap: 16px;
+    gap: 30px;
 }
 
 .blog .blog-list .blog-item {
