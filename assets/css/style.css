@@ -281,7 +281,7 @@ a {
 /* ================Popular================== */
 
 .popular {
-    padding: 200px 135px;
+    padding: 200px 0px;
 }
 
 .popular-top {
@@ -406,4 +406,75 @@ a {
 
 .popular .course-list .course-item .booking .btn-booking:hover {
     background-color: var(--primary-color);
+}
+
+/* ================Feedback================== */
+
+.feedback {
+    background: #2E2100;
+}
+
+.feedback-item {
+    display: flex;
+    padding: 96px 0px;
+}
+
+.feedback-item .info {
+    width: 159px;
+    min-width: 159px;
+}
+
+.feedback-item .info .avatar {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.feedback-item .info .name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #F7F7F7;
+}
+
+.feedback-item .info .desc {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #BFBCB3;
+}
+
+.feedback-item .info .dots {
+    display: flex;
+    gap: 6px;
+}
+
+.feedback-item .info .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #634700;
+    cursor: pointer;
+}
+
+.feedback-item .info .dot:hover {
+    background-color: var(--primary-color);
+}
+
+.feedback-item .content {
+    width: 66%;
+    min-width: 66%;
+    margin-left: auto;
+}
+
+.feedback-item .content .quote {
+    margin-left: 30px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #FFFFFF;
 }
