@@ -671,3 +671,97 @@ a {
 .blog .dots .actived {
     background-color: var(--primary-color);
 }
+
+/* ================Footer================== */
+
+.footer {
+    padding: 96px 0px 28px;
+    background-color: #2e2100;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .column {
+    width: 21.6%;
+}
+
+.footer .column:nth-child(1) {
+    width: 35%;
+}
+
+.footer .column:nth-child(1) .desc {
+    max-width: 267px;
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .socials {
+    display: flex;
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.footer .column:not(:nth-child(1)) .heading {
+    position: relative;
+    margin-bottom: 43px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+}
+
+.footer .column:not(:nth-child(1)) .heading::before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -14px;
+    width: 100%;
+    max-width: 130px;
+    border: 0.5px solid #59554b;
+}
+
+.footer .column:not(:nth-child(1)) li {
+    margin-bottom: 12px;
+}
+
+.footer .column:not(:nth-child(1)) li a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .column:last-child li {
+    max-width: 231px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+}
+
+.footer .column:last-child strong {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #ffffff;
+}
+
+.footer .line {
+    margin-top: calc(38px - 12px);
+    width: 100%;
+    border: 0.5px solid #59554B;;
+}
+
+.footer .copyright {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #807D74;
+}
